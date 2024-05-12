@@ -4,7 +4,7 @@ public class TercerAlgoritmo {
     }
 
     public static void trianguloRecursivo(int base) {
-        if (base == 1) {
+        if (base == 1){
             System.out.println("*");
         }
         else {
