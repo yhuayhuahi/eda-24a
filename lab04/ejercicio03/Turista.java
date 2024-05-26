@@ -1,16 +1,20 @@
 public class Turista<T> {
     private String nombre;
-    private T DNI;
+    private T identificador;
     
-    public Turista(String nombre, T DNI) {
+    public Turista() {}
+
+    public void setNombre(String nombre) {
         this.nombre = nombre;
-        this.DNI = DNI;
+    }
+    public void setIdentificador(T identificador) {
+        this.identificador = identificador;
     }
 
     public String getNombre() {
         return nombre;
     }
-    public T getDNI() {
-        return DNI;
+    public T getIdentificador() {
+        return identificador;
     }
 }
