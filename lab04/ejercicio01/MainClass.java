@@ -8,12 +8,14 @@ public class MainClass {
             double num1 = sc.nextDouble();
             System.out.println("Ingrese el segundo número: ");
             double num2 = sc.nextDouble();
+            
             System.out.println("Ingrese la operación a realizar: ");
             System.out.println("1. Suma");
             System.out.println("2. Resta");
             System.out.println("3. Multiplicación");
             System.out.println("4. División");
             int operacion = sc.nextInt();
+
             Operaciones op = new Operaciones();
             switch (operacion) {
                 case 1:
